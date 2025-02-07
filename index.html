@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Placeholder</title>
   </head>
   <body>
     <div class="flex h-screen flex-col bg-white">
-      <img
-        src="https://static-cdn.jtvnw.net/jtv_user_pictures/aa13d806-d87c-4332-82de-fcb921c34377-profile_banner-480.jpeg"
-        alt=""
-        class="h-100 w-full object-cover"
-      />
-    
+      <div class="w-full h-60 sm:h-80 md:h-96 flex justify-center bg-gray-200">
+        <img
+          src="https://static-cdn.jtvnw.net/jtv_user_pictures/aa13d806-d87c-4332-82de-fcb921c34377-profile_banner-480.jpeg"
+          alt="Banner"
+          class="w-full h-full object-contain"
+        />
+      </div>
+
       <div class="flex flex-1 items-center justify-center">
         <div class="mx-auto max-w-xl px-4 py-8 text-center">
           <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             We can't find that page.
           </h1>
-    
+
           <p class="mt-4 text-gray-500">
             The developer is too lazy to finish this website 😴
           </p>
-    
+
           <a
             href="https://www.instagram.com/nakata_chr"
             class="mt-6 inline-block rounded-sm bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:ring-3 focus:outline-hidden"
